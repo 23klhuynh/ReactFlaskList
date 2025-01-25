@@ -17,5 +17,4 @@ class Friend(db.Model):
             "gender": self.gender,
             "imgUrl": self.img_url,
         }
-    def __repr__(self):
-        return f"<Friend {self.name}>"
+    
